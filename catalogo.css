@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    width: 100vw;
+    background: linear-gradient(180deg, #FF0C0C 7.59%, #030000 78.03%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "h"
+    "m"
+    "i";
+}
+
+header{
+    width: 100%;
+    grid-area: h;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#catalogo{
+    width: 50%;
+    margin-top: 100px;
+    
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;  
+}
+#menu{
+    margin-right: 30px;
+}
+
+.topo > form{
+    width: 30%;
+    
+}
+
+.topo > form> input{
+    border: 3px solid #FEFEFE;
+    border-radius: 9px;
+    background: none;
+    width: 100%;
+    font-size: 2rem;
+    
+    
+
+}
+
+main{
+    width: 100%;
+    grid-area: m;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    color: white;
+    margin-top: 200px;
+}
+.opcao{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 2rem;
+}
+.img{
+    width: 100%;
+    grid-area: i;
+    display: flex;
+    margin-top: 150px;
+    column-gap: 10%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cardbtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-size:2rem;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#logo{
+    
+    margin-left: 5%;
+    width: 20%;
+}
+@media screen and (max-width:530px){
+    .topo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .img{
+        column-gap: 2%;
+        
+    }
+
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+}

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo{
+    background-image: url(image\ 7cabecalhoimg.png);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    grid-template-areas: "h"
+                         "m";
+                         width: 100vw;
+}
+
+.topo img{
+    margin-left: 20px;
+}
+
+.btn{
+    
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+   
+}
+
+.btn01{
+   background-color: #EA5D4E;
+   width: 142px;
+   height: 50px;
+   text-decoration: none;
+   text-align: center;
+   font-size: 30px;
+   color: white;
+   border-radius: 9px;
+   padding-top: 8px;
+}
+
+.btn02{
+    background-color: #00B254;
+    width: 142px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 9px;
+    padding-top: 8px;
+ 
+   
+}
+main{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    width: 100%;
+
+    
+}
+.lanca{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.melhores{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.cards{
+    display:flex;
+    
+    flex-direction:row;
+    
+    
+
+}
+
+@media  screen and (max-width:800px) {
+
+    .topo img{
+        width: 300px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn{
+    
+        margin: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 350px;
+        height: 50px;
+       
+    }
+    .cards{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+        align-items: center;
+        
+    
+    }
+    .lanca > img{
+        display: flex;
+        justify-content:center;
+        align-items: start;
+        width: 260px;
+        height: 40px;
+
+    }
+    .melhores{
+        font-size: 25px;
+    }
+}
