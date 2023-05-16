@@ -101,6 +101,21 @@ ul{
     margin-left: 5%;
     width: 20%;
 }
+.cadastrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF0C0C;
+    text-decoration: none;
+    width: 90%;
+    height: 50px;
+    background-color: red;
+    font-size: 1.7rem;
+    color: aliceblue;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+}
 @media screen and (max-width:530px){
     .topo{
         flex-direction: column;

@@ -38,13 +38,14 @@ form > input {
 form > input:hover{
     background-color:gray;
 }
-form > input[type="submit"]{
-    width: 50%;
+input[type="submit"]{
+    width: 110%;
     background-color: red;
     font-size: 1.7rem;
     color: aliceblue;
     margin-top: 50px;
-    margin-left: 100px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 form > label{
