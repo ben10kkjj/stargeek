@@ -10,21 +10,27 @@
 <body>
     <div class="div1">
     <header>
-        <img src="lightsaber.png" alt="logo">
+        <img src="imagem/lightsaber.png" alt="logo">
         <div class="div2"><img src="cadasitem.png" alt=""></div>
         
     </header>
     <main>
         <form>
+            
             <label for="inome">Nome do Título</label>
             <input type="text" id="inome" placeholder="Nome do Título">
             <label for="itexto">Resumo</label>
-            <textarea name="" id="" cols="30" rows="5"></textarea>
+            <textarea name="descricao" id="descricao" cols="30" rows="5"></textarea>
             <label for="ifoto">Escolha a foto</label>
-            <input type="url" id="ifoto" placeholder="Escolha a foto">
-            <div class="botao"><input type="submit" value="CADASTRAR"></div>
+            <input type="file" id="ifoto" placeholder="Escolha a foto">
+            <div class="botao">
+                <input class="btncadastrar" type="button" value="CADASTRAR">
+            </div>
+            
+           
         </form>
     </main>
 </div>
+<script src="cadasitem.js"></script>
 </body>
 </html>

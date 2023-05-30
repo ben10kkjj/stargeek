@@ -1,8 +1,8 @@
 const mensagem = document.querySelector(".mensagem");
 const formulario = document.getElementById("formulario");
-const nome = document.getElementById("nome");
-const email = document.getElementById("email");
-const senha = document.getElementById("senha");
+const nome = document.getElementById("inome");
+const email = document.getElementById("imail");
+const senha = document.getElementById("isenha");
 
 formulario.onsubmit = (evento) =>{
     if (nome.value == ""){

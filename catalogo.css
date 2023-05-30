@@ -89,6 +89,7 @@ ul{
     color: aliceblue;
     font-size:2rem;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 .card{
     display: flex;
@@ -107,7 +108,7 @@ ul{
     align-items: center;
     background-color: #FF0C0C;
     text-decoration: none;
-    width: 90%;
+    width: 30%;
     height: 50px;
     background-color: red;
     font-size: 1.7rem;
@@ -115,6 +116,7 @@ ul{
     margin-top: 50px;
     border-radius: 10px;
     text-decoration: none;
+    margin: 0 auto;
 }
 @media screen and (max-width:530px){
     .topo{
